@@ -1,0 +1,111 @@
+.contactme {
+  padding: 0px 5.1244vw 0px 5.1244vw;
+}
+.contact-sochial {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.contact-sochial-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact-sochial-text h3,
+.form h3 {
+  font-size: 1rem;
+}
+.contact-sochial img {
+  width: 15%;
+}
+.sochial {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.sochial-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-input {
+  width: 48vw;
+  height: 56px;
+  border: 2px solid var(--title);
+  border-radius: 10px;
+  padding: 16px;
+}
+.form-input-dark {
+  width: 48vw;
+  height: 56px;
+  border: 2px solid var(--titledark);
+  border-radius: 10px;
+  padding: 16px;
+}
+.form input::placeholder {
+  color: var(--title);
+
+  opacity: 0.4;
+}
+.form-g {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#message {
+  height: 72px;
+}
+#message::placeholder {
+  position: absolute;
+  top: 16px;
+  opacity: 0.4;
+}
+.form button {
+  padding: 16px 16px;
+  width: 100%;
+  background-image: linear-gradient(to right, #765197, #d171b9);
+  color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.icon-sochial {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.sochial img:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+.icon-sochial img {
+  width: 32px;
+}
+@media screen and (max-width: 992px) {
+  .icon-sochial img {
+    width: 15%;
+  }
+  .icon-sochial img {
+    width: 32px;
+  }
+  .sochial-form {
+    gap: 42px;
+  }
+  .form input {
+    width: 86vw;
+  }
+  .contact-sochial-text h3,
+.form h3 {
+  font-size: 1.5rem;
+}
+.contact-sochial-text  p{
+  font-size: 1.4rem;
+}
+}

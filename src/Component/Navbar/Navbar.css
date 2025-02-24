@@ -1,0 +1,125 @@
+.Nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5vw 0px 5vw;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.Navcolor {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5.2708vw 0px 5.2708vw;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-image: url(../../assets/img/bcnav.png);
+}
+.ul-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.ul-nav li a {
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+
+.menuicon {
+  display: none;
+  color: var(--primary);
+}
+.divleft {
+  height: 100vh;
+  position: absolute;
+  width: 256px;
+  box-shadow: 0px 4px 5px 0px #00000040;
+  z-index: 5;
+  top: 0px;
+  right: 0px;
+}
+.ul-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+}
+
+.ul-menu li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.ul-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+.X {
+  margin-top: 32px;
+  margin-bottom: 56px;
+  padding-left: 24px;
+  width: 42px;
+  height: 42px;
+}
+#line {
+  margin-top: 80px;
+  color: var(--secondary);
+}
+.text-light-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 24px;
+  padding-right: 16px;
+  padding-left: 24px;
+  font-size: 16px;
+}
+.navbarScroll {
+  background-image: url(../../assets/img/bcnav.png);
+}
+.imgline {
+  width: 70px;
+  margin-top: -16px;
+}
+.TEXTNAV-LINE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.logo-menu-darkorlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 10px;
+  }
+  .logo-menu-darkorlight ul,
+  .iconnav {
+    display: none;
+  }
+  .menuicon {
+    display: block;
+  }
+  .moon {
+    display: none;
+  }
+  .Nav {
+    height: 80px;
+  }
+}

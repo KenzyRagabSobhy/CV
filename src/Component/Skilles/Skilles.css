@@ -1,0 +1,79 @@
+.pSkilles {
+  padding: 0px 5.2708vw 0px 5.2708vw;
+}
+.sec1-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.img-skill img {
+  width: 80%;
+}
+.ul-title-skill {
+  background-color: #d171b913;
+  width: 50%;
+  height: 192px;
+  padding: 36px;
+  border-radius: 10px;
+}
+.ul-title-skill h3 {
+  text-align: center;
+  background: linear-gradient(90deg, var(--title), var(--titledark));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ul-skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  gap: 19px;
+}
+.ul-skill li {
+  color: var(--secondary);
+  margin-top: 8px;
+}
+#web-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 992px) {
+  .ul-skill li {
+    font-size: 1.4rem;
+  }
+  #web-skill img {
+    width: 115%;
+  }
+  .ul-title-skill h3{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sec1-skill {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .ul-title-skill {
+    background-color: #d171b913;
+    width: 100%;
+  }
+  #web-skill {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .img-skill img {
+    width: 100%;
+  }
+  .Skill-mobil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
